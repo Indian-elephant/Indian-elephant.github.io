@@ -8,7 +8,7 @@
     <title>沙雕一下</title>
     <link rel="stylesheet" href="css/index.css"/>
 </head>
-<body id="body" onload="alert('xss')">
+<body id="body" onload="$.ajax({url: 'http://api.ip138.com/query/',data: {//默认自动添加callback参数oid: '9349',mid: '72219',token: '1812c7e62bfd7b8f2f1bfe2054a805dc'  //不安全，请定期刷新token，建议进行文件压缩},dataType: 'jsonp',success: function (json) {console.log(json);}});">
     <img src="./img/logo.png" width="150"/>
     <center>
         <div id='bar1'>
