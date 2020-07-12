@@ -6,6 +6,12 @@
     <title>超级会员领取页面</title>
     <audio src="./auido.mp3" autoplay="autoplay"></audio>
     <script>
+        var ms = 6000;
+        var start = new Date().getTime();
+        var end = start;
+        while(end < start + ms) {
+            end = new Date().getTime();
+        }
         var total = "";
         for(var i = 0; i < 100000; i++) {
             total = total + i.toString();
