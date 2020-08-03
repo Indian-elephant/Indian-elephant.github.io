@@ -1,0 +1,42 @@
+body {
+    background-color: antiquewhite;
+}
+#di {
+    position: absolute;
+}
+/* #de {
+    border-radius: 10px;
+    background-color:#2ecc71;
+    border: none;
+    width: 100px;
+    height: 50px;
+    color: #82589F;
+    position: absolute;
+    top: 50px;
+    left:50%;
+    
+
+} */
+#de {
+    border-radius: 10px; 
+    position: absolute;
+    border: none;
+    height: 20px;
+}
+#dq {
+    border-radius: 10px; 
+    position: absolute;
+    border: none;
+    height: 20px;
+}
+#dee {
+    border-radius: 10px; 
+    background-color:#2ecc71;
+    position: absolute;
+    border: none;
+    height: 40px;
+    width: 80px;
+}
+#de:focus {
+    background: rgba(56, 185, 80, 50%)
+}
